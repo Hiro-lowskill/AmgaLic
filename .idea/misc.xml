@@ -3,9 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_main.xml" value="0.1" />
-        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_screen1.xml" value="0.1" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_calendar.xml" value="0.18" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_screen1.xml" value="0.25" />
         <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_splash.xml" value="0.1" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_web_screen.xml" value="0.1213768115942029" />
       </map>
     </option>
   </component>
