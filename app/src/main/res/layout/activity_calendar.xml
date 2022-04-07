@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".calendar"
-    android:background="@color/white">
+    android:background="#2B9299">
 
     <ImageView
         android:id="@+id/imageView2"
@@ -46,5 +46,25 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/bgtab" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="410dp"
+        android:layout_height="590dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <CalendarView
+            android:id="@+id/calendarView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:selectedWeekBackgroundColor="#ff0000"
+            android:weekNumberColor="#0000ff"
+            android:weekSeparatorLineColor="#00ff00" />
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

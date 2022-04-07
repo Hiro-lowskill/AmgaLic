@@ -3,11 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/drawable/ic_launcher_background.xml" value="0.10989583333333333" />
         <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_calendar.xml" value="0.18" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_login.xml" value="0.18" />
         <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_main.xml" value="0.18" />
-        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_screen1.xml" value="0.25" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_screen.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_screen1.xml" value="0.18" />
         <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_splash.xml" value="0.1" />
         <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/activity_web_screen.xml" value="0.1213768115942029" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/item.xml" value="0.1859375" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/main.xml" value="0.19610507246376813" />
+        <entry key="..\:/Users/soahu/AndroidStudioProjects/hakaton/app/src/main/res/layout/read_layout.xml" value="0.14" />
       </map>
     </option>
   </component>

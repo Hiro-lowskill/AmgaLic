@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".screen"
     android:background="#FFFFFFFF">
 
     <ImageView
@@ -54,7 +54,6 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="150dp"
         android:background="@drawable/calendar"
-        android:onClick="btn3"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -66,7 +65,6 @@
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="260dp"
         android:background="@drawable/datebtn"
-        android:onClick="btn"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         tools:ignore="SpeakableTextPresentCheck" />
@@ -79,7 +77,6 @@
         android:layout_marginEnd="15dp"
         android:layout_marginBottom="15dp"
         android:background="@drawable/emptbtn"
-        android:onClick="btn2"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

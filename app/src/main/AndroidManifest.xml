@@ -10,23 +10,36 @@
         android:label="Amga Series"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.Design.NoActionBar"
+        android:theme="@style/Theme.Hakaton"
         android:usesCleartextTraffic="true">
         <activity
+            android:name=".ReadActivity"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".Login"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
+            android:name=".screen"
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
+        <activity
             android:name=".calendar"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".web_screen"
-            android:exported="true" />
-        <activity
-            android:name=".screen_1"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".MainActivity"
-            android:exported="true" />
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar"/>
         <activity
             android:name=".splash"
-            android:exported="true">
+            android:exported="true"
+            android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

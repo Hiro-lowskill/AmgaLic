@@ -15,10 +15,9 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
     }
     public void btn(View view){
-        Intent i = new Intent(this,screen_1.class);
+        Intent i = new Intent(this,ReadActivity.class);
         startActivity(i);
     }
 
@@ -31,5 +30,4 @@ public class MainActivity extends AppCompatActivity {
         Intent i = new Intent(this,calendar.class);
         startActivity(i);
     }
-
 }
