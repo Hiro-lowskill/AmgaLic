@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "704355202261",
+    "firebase_url": "https://amga-series-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "amga-series",
+    "storage_bucket": "amga-series.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:704355202261:android:504c0736c9b524989f9e5c",
+        "android_client_info": {
+          "package_name": "com.example.hakaton"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "704355202261-q8fn41eh9edof9cc0p2iibt7e2tta14g.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAMRhSFieEO1Nh0XQPrIa718T6xRxev0bc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "704355202261-q8fn41eh9edof9cc0p2iibt7e2tta14g.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
