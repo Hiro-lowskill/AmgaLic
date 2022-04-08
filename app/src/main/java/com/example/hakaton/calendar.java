@@ -2,7 +2,9 @@ package com.example.hakaton;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.CalendarView;
 import android.widget.Toast;
 
@@ -28,5 +30,10 @@ public class calendar extends AppCompatActivity {
                 Toast.makeText(getApplicationContext(), selectedDate, Toast.LENGTH_LONG).show();
             }
         });
+    }
+    public void btn(View view){
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }

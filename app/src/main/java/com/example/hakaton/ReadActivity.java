@@ -1,7 +1,9 @@
 package com.example.hakaton;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.PersistableBundle;
+import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
@@ -23,7 +25,7 @@ public class ReadActivity extends AppCompatActivity {
     private ArrayAdapter<String> adapter;
     private List<String> listData;
     private DatabaseReference mDataBase;
-    private String USER_KEY = "User";
+    private String USER_KEY = "contactformmessages";
     @Override
     public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,7 +48,7 @@ public class ReadActivity extends AppCompatActivity {
             public void onDataChange(@NonNull DataSnapshot datasnapshot) {
                 if (listData.size() > 0)listData.clear();
                 for(DataSnapshot ds : datasnapshot.getChildren()) {
-                    User user = ds.getValue(User.class);
+                    contactformmessages user = ds.getValue(contactformmessages.class);
                     assert user != null;
                     listData.add(user.name);
                 }
@@ -60,5 +62,10 @@ public class ReadActivity extends AppCompatActivity {
             }
         };
         mDataBase.addValueEventListener(vListener);
+    }
+    public void btn(View view){
+        Intent i = new Intent(this,MainActivity.class);
+        startActivity(i);
+        finish();
     }
 }
