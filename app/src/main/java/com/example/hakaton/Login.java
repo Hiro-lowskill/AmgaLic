@@ -15,7 +15,7 @@ import com.google.firebase.database.FirebaseDatabase;
 public class Login extends AppCompatActivity {
     private EditText edName, edSecName, edEmail;
     private DatabaseReference mDataBase;
-    private String USER_KEY = "contactformmessages";
+    private String USER_KEY = "User";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -38,7 +38,7 @@ public class Login extends AppCompatActivity {
         String name = edName.getText().toString();
         String sec_name = edSecName.getText().toString();
         String email = edEmail.getText().toString();
-        contactformmessages newUser = new contactformmessages(id,name,sec_name,email);
+        User newUser = new User(id,name,sec_name,email);
         if(!TextUtils.isEmpty(name) && !TextUtils.isEmpty(sec_name) && !TextUtils.isEmpty(email)) {
 
             mDataBase.push().setValue(newUser);

@@ -1,12 +1,12 @@
 package com.example.hakaton;
 
-class contactformmessages {
+class User {
     public String  id,name, subject, email;
 
-    public contactformmessages() {
+    public User() {
     }
 
-    public contactformmessages(String id, String name, String subject, String email) {
+    public User(String id, String name, String subject, String email) {
         this.id = id;
         this.name = name;
         this.subject = subject;
