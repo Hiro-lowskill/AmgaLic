@@ -31,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
         startActivity(i);
     }
     public void btn4(View view){
-        Intent i = new Intent(this,calendar.class);
+        Intent i = new Intent(this,Login.class);
         startActivity(i);
     }
 }
